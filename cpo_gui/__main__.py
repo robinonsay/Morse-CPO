@@ -50,7 +50,7 @@ if __name__ == "__main__":
         audio_hdlr = None
         parser = argparse.ArgumentParser()
         parser.add_argument("--port", help="The Serial (COM) port to use", type=str)
-        parser.add_argument("--baud", help="The Baud rate (default = 57600)", default=57600, type=int)
+        parser.add_argument("--baud", help="The Baud rate (default = 9600)", default=9600, type=int)
         parser.add_argument("--list", help="List COM ports", action="store_true")
         parser.add_argument("--audio", help="Use Computer Audio", action="store_true")
         args = parser.parse_args()
